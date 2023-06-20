@@ -32,6 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '.ws-us100.gitpod.io',
+    '127.0.0.1'
 ]
 
 # Application definition

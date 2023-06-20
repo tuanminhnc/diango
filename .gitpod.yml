@@ -3,6 +3,6 @@ tasks:
     init: python -m pip install --upgrade pip
     command: pip install -r requirements.txt
   - name: Migrate app
-    init: python manage.py Migrate
+    init: python manage.py migrate
     command: python manage.py runserver
 

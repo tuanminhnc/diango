@@ -9,3 +9,6 @@ db.sqlite3
 # If your build proccess inculdes running collectstatic
 # <Django-project-name>/staticfiles
 static/
+
+#Pychaim
+.idea/
