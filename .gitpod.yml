@@ -1,7 +1,7 @@
 tasks:
   - name: Python Update Pip
-    before:  python -m pip install --upgrade pip
-    init: pip install -r requirements.txt    
+    init: python -m pip install --upgrade pip
+    command: pip install -r requirements.txt
   - name: Migrate app
     init: python manage.py Migrate
     command: python manage.py runserver
