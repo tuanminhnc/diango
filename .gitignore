@@ -1,3 +1,11 @@
+# Django
 __pycache__
-
+*.log
 db.sqlite3
+
+#Environments
+.env
+
+# If your build proccess inculdes running collectstatic
+# <Django-project-name>/staticfiles
+static/
